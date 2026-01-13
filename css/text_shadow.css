@@ -1,0 +1,30 @@
+
+
+.img_b_shadow{
+          width: 400px;
+          box-shadow: 5px 6px 7px red;
+        }
+
+        .img_b_shadow2{
+            width: 400px;
+            box-shadow: 7px 7px 7px rgb(198, 92, 5);
+            
+        }
+
+        .img_b_shadow3{
+            width: 400px;
+            box-shadow:8px 8px 8px #01360c;
+        }
+
+
+
+        .img_d_shadow{
+            width: 400px;
+            filter: drop-shadow(5px 5px 5px red);
+        }
+
+        .img_d_shadow1{
+            width:400px;
+            filter: drop-shadow(10px 10px 8px rgb(115, 3, 52));
+            
+        }
