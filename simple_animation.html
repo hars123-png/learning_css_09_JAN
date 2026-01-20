@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 800px;
+            height: 800px;
+            border-radius: 50%;
+            background: 10px;
+            /* background-color: red; */
+            position: relative;
+            animation: movingbox;
+           
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate;
+        }
+        @keyframes movingbox{
+            0%{background-color: aquamarine; left: 0px; top:0px;}
+            25%{background-color: aqua; left: 600px; top: 0px;}
+            50%{background-color: rgb(46, 68, 230); left:600px;top: 600px;}
+            75%{background-color: blue; left:0px; top: 600px;}
+            100%{background-color:aquamarine;left: 0px; top: 0px;}
+        }
+
+        @keyframes movingbox{
+            0%{background-image: url(images/sunset\ img.jpeg);}
+            25%{background-image: url(images/beach\ img.webp);}
+            50%{background-image: url(images/nature.jpeg);}
+            75%{background-image: url(images/stock-photo-beautiful-landscape.jpeg);}
+            100%{background-image: url(images/sunset\ img.jpeg);}
+        }
+    </style>
+</head>
+<body>
+   <div></div> 
+   
+</body>
+</html>

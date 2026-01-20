@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin: 30px;
+        padding: 50px;
+        gap: 50px;
+    }
+    .box{
+        background-color: aqua;
+        border-radius: 10px;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size: 14;
+        transition: transform 2s ease-in 500ms;
+
+    }
+
+    .box1:hover{
+        transform: translate(425px, 425px);
+    }
+
+    .box2:hover{
+        transform: translateX(425px);
+    }
+    .box3:hover{
+        transform:translateY(425px);
+    }
+    .box4:hover{
+        transform: rotate(-360deg);
+    }
+
+    .box5:hover{
+        transform: skew(50deg,50deg);
+    }
+    .box6:hover{
+        transform: skewX(20deg);
+    }
+
+    .box7:hover{
+        transform:skewY(30deg);
+    }
+
+    .box8:hover{
+        transform:scale(2);
+    }
+    .box9:hover{
+        transform: rotate(360deg) scale(1.5) translate(200px,200px);
+    }
+</style>
+<body>
+   <!-- div.container>div.box*6 -->
+    <div class="container">
+        <div class="box box1">Translate</div>
+        <div class="box box2">Translate X</div>
+        <div class="box box3">Translate Y</div>
+        <div class="box box4"> Rotate</div>
+        <div class="box box5">skew</div>
+        <div class="box box6">Skew X</div>
+        <div class="box box7">Skew Y</div>
+        <div class="box box8">Scaling</div>
+        <div class="box box9">MUltiple</div>
+    </div>
+</body>
+</html>
