@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    /* mobile first, we start from the smallest viweport width */
+    @media only screen and (min-width:320px)and (max-width:767px){
+        body{
+            background-color: aqua;
+        }
+
+        p{
+            display: none;
+
+        }
+
+        h1{
+            color: black;
+            font-size: 50px;
+
+        }
+    }
+
+/* from 768px and up */
+@media(min-width:768px){
+    body{
+        background-color: brown;
+        h1{
+            color: #17a909;
+        }
+    }
+}
+
+
+/* max-width query customize */
+/* 
+from 850 and up,until 950px */
+@media(min-width:850px) and(max-width:950px){
+    body{
+        background-color: purple;
+    }
+    h1{
+        font-size: 100px
+    }
+
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <h1>CSS Media Query</h1>
+    <p>the background will change according to viwe port width change</p>
+
+
+
+    <h3> smartphone</h3>
+</body>
+</html>
